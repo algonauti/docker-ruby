@@ -17,8 +17,4 @@ RUN \
 RUN wget https://github.com/Yelp/dumb-init/releases/download/v1.2.0/dumb-init_1.2.0_amd64.deb \
   && dpkg -i dumb-init_*.deb
 
-RUN useradd test --shell /bin/bash --create-home
-
-USER test
-
 ENTRYPOINT ["dumb-init"]
