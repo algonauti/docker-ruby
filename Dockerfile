@@ -17,4 +17,6 @@ RUN \
 RUN wget https://github.com/Yelp/dumb-init/releases/download/v1.2.0/dumb-init_1.2.0_amd64.deb \
   && dpkg -i dumb-init_*.deb
 
+COPY rootfs /
+
 ENTRYPOINT ["dumb-init"]
