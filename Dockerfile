@@ -25,7 +25,7 @@ RUN apk add --update --no-cache \
       pkgconfig \
       postgresql-dev \
       python3 \
-      sqlite \
+      sqlite-dev \
       tzdata \
       yarn
 
