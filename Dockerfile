@@ -27,6 +27,7 @@ RUN apk add --update --no-cache \
       python3 \
       sqlite-dev \
       tzdata \
+      yaml-dev \
       yarn
 
 
