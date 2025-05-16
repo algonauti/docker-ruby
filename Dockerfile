@@ -1,4 +1,4 @@
-FROM ruby:3.4.3-alpine3.20
+FROM ruby:3.4.4-alpine3.20
 
 RUN apk add --update --no-cache \
       bash \
