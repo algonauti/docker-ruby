@@ -1,4 +1,4 @@
-FROM ruby:3.4.4-alpine3.20
+FROM ruby:3.4.5-alpine3.22
 
 RUN apk add --update --no-cache \
       bash \
@@ -28,7 +28,8 @@ RUN apk add --update --no-cache \
       sqlite-dev \
       tzdata \
       yaml-dev \
-      yarn
+      yarn \
+      vips
 
 
 COPY rootfs /
